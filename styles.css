@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+#main, body{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #eee;
+    
+}
+
+#img-div{
+    background-color: white;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+}
+
+#img-div-caption{
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+#title{
+    margin-top: 50px;
+    line-height: 4em;
+    opacity: .8;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h1 p{
+    font-size: 4em;
+}
+
+ul{
+    margin: 15px 100px;
+    line-height: 1.5em;
+}
+
