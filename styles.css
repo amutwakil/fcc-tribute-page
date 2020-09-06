@@ -5,45 +5,94 @@
 }
 
 html{
-    font-family: sans-serif;
+    font-family: Roboto Mono;
 }
 
-#main, body{
-    height: 100%;
-    width: 100%;
+#main{
     text-align: center;
-    display: block;
     background-color: #eee;
-    
 }
+
+/* title
+================*/
+
+#title{
+  padding: 3rem 0 1.15rem 0;
+  margin: 2rem 0 0 0;
+}
+
+#title h1{
+  font-weight: 750;
+  font-size: 3rem;
+  margin-bottom: .5em;
+}
+
+#title span{
+  font-size: 1.15rem;
+  opacity: .9;
+}
+
+/* image
+================*/
 
 #img-div{
     background-color: white;
-    line-height: 1.5em;
-    margin-bottom: 50px;
+    margin: 0 1em;
+
 }
 
 #img-div-caption{
-    margin-top: 25px;
-    font-size: 18px;
+    padding: 1rem 0;
+    font-size: 1.2rem;
 }
 
-#title{
-    margin-top: 50px;
-    line-height: 4em;
-    opacity: .8;
+img{
+  max-width: 100%;
+  height: auto;
 }
 
-h1{
-    font-size: 3em;
-}
+/* content */
 
-h1 p{
-    font-size: 4em;
+h3{
+  font-size: 1.4em;
+  padding: 2.3em 0;
 }
 
 ul{
-    margin: 15px 100px;
-    line-height: 1.5em;
+  width: 30%;
+  margin: 0 auto 3em auto;
 }
 
+li{
+  list-style-type: square;
+  padding: .9em 0;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+/* footer */
+
+.footer{
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: left;
+  width: 30%;
+}
+
+.quote{
+  margin: 0 auto 1em auto;
+}
+
+.cite{
+  margin: 0 auto 2em auto;
+}
+
+.wiki{
+font-weight: bold;
+font-size: 1.4em;
+}
+
+#footer{
+  margin: 0 0 2em 0;
+  padding: 0 0 3em 0;
+}
